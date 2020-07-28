@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "clang", 
+            "args": [
+                "-g",
+                "${file}",
+                "-o", 
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-wall",
+                "-static-libgcc",
+                "--std=c17"
+            ],
+            "options": {
+                "cwd": "E:\\mingw64\\bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
