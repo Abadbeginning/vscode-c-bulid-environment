@@ -4,7 +4,7 @@
 	 {
 	  "type": "shell",
 	  "label": "C/C++: gcc.exe build active file",
-	  "command": "D:\\install\\mingw\\bin\\g++.exe",
+	  "command": "D:\\install\\mingw\\bin\\g++.exe", // mingw的真实路径 需自己对应修改
 	  "args": [
 	   "-g",
 	   "${file}",
@@ -12,7 +12,7 @@
 	   "${fileDirname}\\${fileBasenameNoExtension}.exe"
 	  ],
 	  "options": {
-	   "cwd": "D:\\install\\mingw\\bin"
+	   "cwd": "D:\\install\\mingw\\bin" // mingw的真实路径 需自己对应修改
 	  },
 	  "problemMatcher": [
 	   "$gcc"
